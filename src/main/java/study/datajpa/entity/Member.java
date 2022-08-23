@@ -54,6 +54,10 @@ public class Member {
         this.age=age++;
     }
 
+    public void updateName(String username) {
+        this.username=username;
+    }
+
 
 
 
