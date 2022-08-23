@@ -50,6 +50,10 @@ public class Member {
         team.getMembers().add(this);
     }
 
+    public void plusAge(int age) {
+        this.age=age++;
+    }
+
 
 
 
